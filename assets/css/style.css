@@ -9875,8 +9875,16 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.videos-populares h4 {
+  margin: 20px 0px 20px 140px;
+}
+
+.video p {
+  color: #A4A4A4;
+}
+
 .iconos {
-  text-align: center;
+  text-align: right;
 }
 
 i {
@@ -9901,28 +9909,167 @@ ul {
 }
 
 .foto img {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .seguidores {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: center;
+}
+
+.seguidores p {
+  color: #A4A4A4;
 }
 
 .mukami {
   margin-top: 30px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #D8D8D8;
 }
 
+.contenedor2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 20%;
+  height: 270px;
+  margin: 5px 10px;
+}
+
+.video img {
+  width: 100%;
+  height: 70%;
+}
+
+/*#video1{
+  margin-left: 10%;
+}
+#video5{
+  margin-left: 10%;
+}/*
+/*.video2{
+  background-color: red;
+  width: 23%;
+}
+.video3{
+  background-color: red;
+  width: 23%;
+}
+.video4{
+  background-color: red;
+  width: 23%;
+}
+.video5{
+  background-color: red;
+  width: 23%;
+}
+.video6{
+  background-color: red;
+  width: 23%;
+}
+.video7{
+  background-color: red;
+  width: 23%;
+}
+.video8{
+  background-color: red;
+  width: 23%;
+}*/
 .botones {
   text-align: right;
   vertical-align: center;
+  padding-top: 25px;
 }
 
 .botones button {
-  margin: 20px;
+  margin: 5px;
+}
+
+#boton-mensaje {
+  background-color: #A9E2F3;
+  color: white;
+  height: 40px;
+  width: 90px;
+  border: 1px solid #E6E6E6;
+}
+
+#boton-seguir {
+  background-color: #F7819F;
+  color: white;
+  height: 40px;
+  width: 90px;
+  border: 1px solid #E6E6E6;
+}
+
+@media screen and (max-width: 1200px) {
+  .contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .video {
+    width: 30%;
+  }
+
+  .portada {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .video {
+    width: 40%;
+    margin: 0% 5% 0% 5%;
+  }
+
+  .portada {
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 540px) {
+  .contenedor2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video {
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+  }
+
+  .botones {
+    display: none;
+  }
+
+  .portada {
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .mukami {
+    text-align: right;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
