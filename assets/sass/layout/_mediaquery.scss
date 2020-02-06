@@ -34,6 +34,19 @@
   background-position: center;
   background-size: cover;
 }
+.iconos .fa-search{
+  display: none;
+}
+.iconos .fa-video{
+  display: none;
+}
+.iconos .fa-plus{
+  display: none;
+}
+.iconos .fa-bell{
+  display: none;
+}
+
 }
 
 
@@ -59,5 +72,17 @@
 }
 .mukami{
   text-align: right;
+}
+.iconos .fa-search{
+  display: none;
+}
+.iconos .fa-video{
+  display: none;
+}
+.iconos .fa-plus{
+  display: none;
+}
+.iconos .fa-bell{
+  display: none;
 }
 }

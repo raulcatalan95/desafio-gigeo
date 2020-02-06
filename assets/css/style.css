@@ -9883,6 +9883,23 @@ h3 {
   color: #A4A4A4;
 }
 
+.logo h2 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.seguidores p {
+  color: #A4A4A4;
+}
+
+.mukami h3 {
+  font-weight: revert;
+}
+
+.video h5 {
+  font-weight: revert;
+}
+
 .iconos {
   text-align: right;
 }
@@ -9895,10 +9912,6 @@ i {
 
 ul {
   margin-left: 100px;
-}
-
-.logo h2 {
-  padding: 10px;
 }
 
 .portada {
@@ -9919,10 +9932,6 @@ ul {
 .seguidores {
   display: inline-block;
   vertical-align: center;
-}
-
-.seguidores p {
-  color: #A4A4A4;
 }
 
 .mukami {
@@ -9948,40 +9957,6 @@ ul {
   height: 70%;
 }
 
-/*#video1{
-  margin-left: 10%;
-}
-#video5{
-  margin-left: 10%;
-}/*
-/*.video2{
-  background-color: red;
-  width: 23%;
-}
-.video3{
-  background-color: red;
-  width: 23%;
-}
-.video4{
-  background-color: red;
-  width: 23%;
-}
-.video5{
-  background-color: red;
-  width: 23%;
-}
-.video6{
-  background-color: red;
-  width: 23%;
-}
-.video7{
-  background-color: red;
-  width: 23%;
-}
-.video8{
-  background-color: red;
-  width: 23%;
-}*/
 .botones {
   text-align: right;
   vertical-align: center;
@@ -10044,6 +10019,22 @@ ul {
     background-position: center;
     background-size: cover;
   }
+
+  .iconos .fa-search {
+    display: none;
+  }
+
+  .iconos .fa-video {
+    display: none;
+  }
+
+  .iconos .fa-plus {
+    display: none;
+  }
+
+  .iconos .fa-bell {
+    display: none;
+  }
 }
 @media screen and (max-width: 540px) {
   .contenedor2 {
@@ -10069,6 +10060,22 @@ ul {
 
   .mukami {
     text-align: right;
+  }
+
+  .iconos .fa-search {
+    display: none;
+  }
+
+  .iconos .fa-video {
+    display: none;
+  }
+
+  .iconos .fa-plus {
+    display: none;
+  }
+
+  .iconos .fa-bell {
+    display: none;
   }
 }
 
